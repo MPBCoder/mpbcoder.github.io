@@ -1,7 +1,22 @@
+@font-face {
+  font-family: Poppins;
+  src: url("/files/fonts/Poppins-Black.ttf");
+}
+
 body {
   height:100vh;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-family:Poppins, Inter, 'Open Sans', system-ui, sans-serif;
+  font-family:Poppins, system-ui, sans-serif;
+  background-color: #2979FF;
+  color: #fff;
+}
+
+.coming-soon {
+  font-weight: normal;
+  padding: 5rem;
+  border: 5px solid #d2d2d215;
+  background-color: #d2d2d215;
+  border-radius: 80px;
 }

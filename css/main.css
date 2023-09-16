@@ -1,22 +1,89 @@
 @font-face {
-  font-family: Poppins;
-  src: url("/files/fonts/Poppins-Black.ttf");
+	font-family: Poppins;
+	src: url("/files/fonts/Poppins-Black.ttf");
 }
 
 body {
-  height:100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-family:Poppins, system-ui, sans-serif;
-  background-color: #2979FF;
-  color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Poppins, system-ui, sans-serif;
+	background-color: #2979ff;
+	color: #ffffff;
+}
+
+.wrapper {
+	padding: 5rem;
+	border: 5px solid #d2d2d215;
+	background-color: #d2d2d215;
+	border-radius: 80px;
+	text-align: center;
 }
 
 .coming-soon {
-  font-weight: normal;
-  padding: 5rem;
-  border: 5px solid #d2d2d215;
-  background-color: #d2d2d215;
-  border-radius: 80px;
+	font-weight: normal;
+}
+
+.spinner {
+	margin: 100px auto;
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.cube1,
+.cube2 {
+	background-color: #ffffff;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	-webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+	animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+	25% {
+		-webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+	}
+	50% {
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+	}
+	75% {
+		-webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+@keyframes sk-cubemove {
+	25% {
+		transform: translateX(42px) rotate(-90deg) scale(0.5);
+		-webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+	}
+	50% {
+		transform: translateX(42px) translateY(42px) rotate(-179deg);
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+	}
+	50.1% {
+		transform: translateX(42px) translateY(42px) rotate(-180deg);
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+	}
+	75% {
+		transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+		-webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+	}
+	100% {
+		transform: rotate(-360deg);
+		-webkit-transform: rotate(-360deg);
+	}
 }

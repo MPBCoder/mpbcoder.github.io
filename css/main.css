@@ -25,6 +25,8 @@ body {
 	font-weight: normal;
 }
 
+/* Spinner By https://tobiasahlin.com/spinkit/ */
+
 .spinner {
 	margin: 100px auto;
 	width: 40px;

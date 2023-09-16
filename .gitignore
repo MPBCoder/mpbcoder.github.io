@@ -3,4 +3,4 @@
 *.sass.map
 *.scss.map
 .code/
-.code-workspace
+*.code-workspace

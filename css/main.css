@@ -3,6 +3,10 @@
 	src: url("/files/fonts/Poppins-Black.ttf");
 }
 
+* {
+	margin: 0;
+}
+
 body {
 	height: 100vh;
 	display: flex;
@@ -11,18 +15,20 @@ body {
 	font-family: Poppins, system-ui, sans-serif;
 	background-color: #2979ff;
 	color: #ffffff;
+	padding: 2rem;
 }
 
 .wrapper {
-	padding: 5rem;
 	border: 5px solid #d2d2d215;
 	background-color: #d2d2d215;
 	border-radius: 80px;
 	text-align: center;
+	padding: 2.5rem;
 }
 
 .coming-soon {
 	font-weight: normal;
+	margin-top: 1rem;
 }
 
 /* Spinner By https://tobiasahlin.com/spinkit/ */

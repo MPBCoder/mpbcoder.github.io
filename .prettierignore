@@ -28,3 +28,4 @@ dist-ssr
 *.scss.map
 .code/
 *.code-workspace
+.husky/

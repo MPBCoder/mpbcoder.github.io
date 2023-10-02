@@ -1,0 +1,35 @@
+{
+  "name": "personal_website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 0.2%, last 2 versions, Firefox ESR, not dead"
+  ],
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.31",
+    "postcss-load-config": "^4.0.1",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "sanitize.css": "^13.0.0"
+  }
+}

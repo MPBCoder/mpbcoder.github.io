@@ -5,4 +5,5 @@ import "sanitize.css/forms.css";
 import "sanitize.css/assets.css";
 import "sanitize.css/typography.css";
 import "sanitize.css/reduce-motion.css";
+import "./colors.css";
 import "./style.css";

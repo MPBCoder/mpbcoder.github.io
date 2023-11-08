@@ -58,7 +58,7 @@ To build this project for production run
   npm run build 
 ```
 
-To Preview the production build run
+To Preview the production build run (first build)
 
 ```bash
 npm run preview

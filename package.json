@@ -27,7 +27,7 @@
     "postcss": "^8.4.31",
     "postcss-load-config": "^4.0.1",
     "prettier": "^3.0.3",
-    "vite": "^4.4.11"
+    "vite": "^4.4.12"
   },
   "dependencies": {
     "sanitize.css": "^13.0.0"

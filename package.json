@@ -24,7 +24,7 @@
     "autoprefixer": "^10.4.16",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "postcss": "^8.4.31",
+    "postcss": "^8.5.10",
     "postcss-load-config": "^4.0.1",
     "prettier": "^3.0.3",
     "vite": "^4.5.5"
